@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Customer\" />
+    <Folder Include="Account\" />
+    <Folder Include="Transaction\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimApiHw4.Base\SimApiHw4.Base.csproj" />
+    <ProjectReference Include="..\SimApiHw4.Data\SimApiHw4.Data.csproj" />
+  </ItemGroup>
+
+</Project>

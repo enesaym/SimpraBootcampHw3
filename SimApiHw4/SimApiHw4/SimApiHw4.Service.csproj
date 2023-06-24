@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimApiHw4.Base\SimApiHw4.Base.csproj" />
+    <ProjectReference Include="..\SimApiHw4.Data\SimApiHw4.Data.csproj" />
+    <ProjectReference Include="..\SimApiHw4.Operation\SimApiHw4.Operation.csproj" />
+    <ProjectReference Include="..\SimApiHw4.Schema\SimApiHw4.Schema.csproj" />
+  </ItemGroup>
+
+</Project>
